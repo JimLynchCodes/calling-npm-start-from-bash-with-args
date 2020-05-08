@@ -1,0 +1,19 @@
+{
+  "name": "calling-npm-start-from-bash-with-args",
+  "version": "1.0.0",
+  "description": "## A Spike To Try Things This is a spike project for me to basically test out the proper BASH syntax for soing this before integrating it into larger, more important projects. Feel free to learn from it yourself! 👍",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimLynchCodes/calling-npm-start-from-bash-with-args.git"
+  },
+  "author": "Jim",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JimLynchCodes/calling-npm-start-from-bash-with-args/issues"
+  },
+  "homepage": "https://github.com/JimLynchCodes/calling-npm-start-from-bash-with-args#readme"
+}
