@@ -10,9 +10,4 @@ if [ "$#" -eq "0" ]; then
    exit
 fi
 
-for i in $@
-do 
-  npm_parameters="$npm_parameters $i"
-done
-
-eval npm start -- $npm_parameters
+eval npm start -- "'$*'"
