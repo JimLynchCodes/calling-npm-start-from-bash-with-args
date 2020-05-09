@@ -16,7 +16,7 @@ if [ "$#" -eq "0" ]; then
    exit
 fi
 
-for i in {1..$#}
+for i in $@
 do 
   npm_parameters="$npm_parameters $i"
 done
