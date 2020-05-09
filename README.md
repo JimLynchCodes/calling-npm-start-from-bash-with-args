@@ -25,9 +25,9 @@ npm start -- --num=42 --color-blue
 
 Also, suppose you have a bash script which can accepts any flags and calls the underlying command of _npm start_ with these arguments.
 
-If the bash run was named `run-script.sh`, the command should look like this:
+If the bash run was named `npm-start.sh`, the command should look like this:
 ```
-./run-script.sh --num=100 --color=red
+./npm-start.sh --num=100 --color=red
 
 // prints: foobar 100
 ```
@@ -51,21 +51,21 @@ npm i
 
 You will probably need to explicitly allow the bash file to be executed:
 ```
-chmod +x run-script.sh
+chmod +x npm-start.sh
 ```
 
 
 Then run the bash script:
 ```
-./run-script.sh
+./npm-start.sh
 ```
 
 Notice how the bash file correctly passes the flags to the node process as well.
 
 Examples:
 ```
-./run-script.sh -- --num=5
-./run-script.sh -- --color=foobar
-./run-script.sh -- --color=green --num=14
+./npm-start.sh -- --num=5
+./npm-start.sh -- --color=foobar
+./npm-start.sh -- --color=green --num=14
 ```
 
