@@ -1,7 +1,7 @@
 # calling-npm-start-from-bash-with-args
 
 ## A Spike To Try Things
-This is a spike project for me to basically test out the proper BASH syntax for soing this before integrating it into larger, more important projects. Feel free to learn from it yourself! 👍
+This is a spike project for me to basically test out the proper BASH syntax for doing this before integrating it into another project. 😁 😅
 
 ## Motivation For This Project
 
@@ -54,7 +54,6 @@ You will probably need to explicitly allow the bash file to be executed:
 chmod +x npm-start.sh
 ```
 
-
 Then run the bash script:
 ```
 ./npm-start.sh
@@ -67,5 +66,6 @@ Examples:
 ./npm-start.sh -- --num=5
 ./npm-start.sh -- --color=foobar
 ./npm-start.sh -- --color=green --num=14
+./npm-start.sh -- --num=400 --color=passion-turquoise
 ```
 
